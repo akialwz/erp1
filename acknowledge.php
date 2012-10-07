@@ -28,13 +28,13 @@ echo "You have Been Successfully Logged In. Welcome Admin<br>";
 echo "<input type=submit value=Click To Proceed To Admin Page>";
 echo "</form>";
 }
-$p="slq$zdnzskM_im";
-$con = mysql_connect("a.db.shared.orchestra.io","user_54bd84ff",$p);
+$p="ShU3Ys;DCFzMto";
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1",$p);
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("db_54bd84ff");  
+$db = mysql_select_db("db_1766b6b1");  
 $result = mysql_query("select * from signinfo where id= '".$username."'"); 
 while($row = mysql_fetch_assoc( $result )) {
 $pass=$row['password'] ;
