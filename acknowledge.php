@@ -28,12 +28,12 @@ echo "You have Been Successfully Logged In. Welcome Admin<br>";
 echo "<input type=submit value=Click To Proceed To Admin Page>";
 echo "</form>";
 }
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("https://mysql.orchestra.io/main.php?","user_54bd84ff","slq$zdnzskM_im");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("valid");  
+$db = mysql_select_db("db_54bd84ff");  
 $result = mysql_query("select * from signinfo where id= '".$username."'"); 
 while($row = mysql_fetch_assoc( $result )) {
 $pass=$row['password'] ;
