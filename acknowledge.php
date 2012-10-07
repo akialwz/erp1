@@ -28,7 +28,7 @@ echo "You have Been Successfully Logged In. Welcome Admin<br>";
 echo "<input type=submit value=Click To Proceed To Admin Page>";
 echo "</form>";
 }
-$con = mysql_connect("a.db.shared.orchestra.io","user_54bd84ff","slq$zdnzskM_im");
+$con = mysql_connect("a.db.shared.orchestra.io","user_54bd84ff","slqzdnzskM_im");
 if(!$con)
 {
 echo "Error";
