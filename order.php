@@ -20,12 +20,12 @@
 <font color="white" face="chiller" size="6">
 ORDER<br>
 <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");
+$db = mysql_select_db("db_1766b6b1"); 
 $c1=$_POST['c1'];
 $i1=$_POST['i1'];
 $p1=$_POST['p1'];
