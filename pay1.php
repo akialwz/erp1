@@ -23,12 +23,12 @@ PAYROLL
 <br>
 <?php
 $val = $_POST['id'];
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("emp");  
+$db = mysql_select_db("db_1766b6b1");  
 $result = mysql_query("select * from empdat where id='".$val."'");
 while($row = mysql_fetch_assoc( $result )) {
 $d=$row['days'];
