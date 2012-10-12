@@ -23,12 +23,12 @@ STOCK
 <br>
 
 <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");   
 echo"<table border=0 width=55% cellpadding=5 cellspacing=0 bgcolor=black>";
 echo"<tr><td><font color=white face=arial size=5>Catagory</td>
 <td><font color=white face=arial size=5>Product</td>
