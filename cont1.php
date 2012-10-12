@@ -36,13 +36,13 @@ $com=$_POST['comments'];
 if(preg_match("/^[a-zA-Z0-9]+@[a-zA-Z0-9]{5,7}.[a-zA-z]+$/",$e))
 {
 if(preg_match('/^(0|(\+)?91)?[7-9]\d{9}$/',$c)){
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
 
-mysql_select_db("contact1", $con);
+mysql_select_db("db_1766b6b1", $con);
 
 mysql_query("INSERT INTO contactinfo values ('$n','$e', '$c', '$qn', '$com')");
 echo "<div align=center>";
