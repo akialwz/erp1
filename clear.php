@@ -22,12 +22,12 @@
 ORDER
 <br>
 <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 mysql_query("DELETE FROM ord");
 echo "Order Database Has Been Cleared";
 ?>
