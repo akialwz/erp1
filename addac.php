@@ -27,12 +27,12 @@ echo "<font color=white face=calibri size=5>";
 echo "Admin Account Can't Be Recreated<br>";
 }
 if(strlen($u)>=3 && strlen($p)>=6){
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
   }
-mysql_select_db("valid", $con);
+mysql_select_db("db_1766b6b1", $con);
 mysql_query("INSERT INTO signinfo values ('$u','$p')");
 echo "<div align=center>";
 echo "<b>";
