@@ -36,12 +36,12 @@ Each Order Is Limited To A maximum of 10 items
 <td><font color="white" face="arial" size="5">1</td>
 <td><select name="c1">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -53,10 +53,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i1">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -73,12 +75,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">2</td>
 <td><select name="c2">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");   
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -90,10 +92,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i2">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -109,12 +113,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">3</td>
 <td><select name="c3">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -126,10 +130,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i3">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -145,12 +151,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">4</td>
 <td><select name="c4">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -162,10 +168,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i4">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -181,12 +189,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">5</td>
 <td><select name="c5">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -198,10 +206,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i5">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -217,12 +227,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">6</td>
 <td><select name="c6">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -234,10 +244,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i6">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -253,12 +265,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">7</td>
 <td><select name="c7">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -270,10 +282,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i7">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -289,12 +303,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">8</td>
 <td><select name="c8">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1");  
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -306,10 +320,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i8">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -325,12 +341,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">9</td>
 <td><select name="c9">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -342,10 +358,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i9">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
@@ -361,12 +379,12 @@ echo "<option value='$catName'>$catName</option>\n";
 <td><font color="white" face="arial" size="5">10</td>
 <td><select name="c10">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
 {
 echo "Error";
 }
-$db = mysql_select_db("item");  
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM cat");
 while ($row = mysql_fetch_assoc($query)) {
 $cat = $row['id'];
@@ -378,10 +396,12 @@ echo "<option value='$cat'>$cat</option>\n";
 <td>
 <select name="i10">
             <?php
-$con = mysql_connect("localhost","root","");
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
 if(!$con)
-{echo "Error";}
-$db = mysql_select_db("item");
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1"); 
 $query = mysql_query("SELECT * FROM det");
 while ($row = mysql_fetch_assoc($query)) {
 $catId = $row['id'];
