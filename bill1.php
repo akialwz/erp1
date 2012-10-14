@@ -20,6 +20,12 @@
 <font color="white" face="chiller" size="6">
 BILLING<br>
 <?php
+$con = mysql_connect("a.db.shared.orchestra.io","user_1766b6b1","ShU3Ys;DCFzMto");
+if(!$con)
+{
+echo "Error";
+}
+$db = mysql_select_db("db_1766b6b1");  
 $c1=$_POST['c1'];
 $i1=$_POST['i1'];
 $p1=$_POST['p1'];
@@ -58,6 +64,7 @@ echo"<tr><td><font color=white face=arial size=5>Item No</td>
 </tr>";
 if($p1!="" && $p1!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i1."'");
 echo"<tr><td><font color=white face=arial size=5>1</td>
 <td><font color=white face=arial size=5>$c1</td>
 <td><font color=white face=arial size=5>$i1</td>
@@ -66,6 +73,7 @@ echo"<tr><td><font color=white face=arial size=5>1</td>
 }
 if($p2!="" && $p2!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i2."'");
 echo"<tr><td><font color=white face=arial size=5>2</td>
 <td><font color=white face=arial size=5>$c2</td>
 <td><font color=white face=arial size=5>$i2</td>
@@ -74,6 +82,7 @@ echo"<tr><td><font color=white face=arial size=5>2</td>
 }
 if($p3!="" && $p3!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i3."'");
 echo"<tr><td><font color=white face=arial size=5>3</td>
 <td><font color=white face=arial size=5>$c3</td>
 <td><font color=white face=arial size=5>$i3</td>
@@ -82,6 +91,7 @@ echo"<tr><td><font color=white face=arial size=5>3</td>
 }
 if($p4!="" && $p4!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i4."'");
 echo"<tr><td><font color=white face=arial size=5>4</td>
 <td><font color=white face=arial size=5>$c4</td>
 <td><font color=white face=arial size=5>$i4</td>
@@ -90,6 +100,7 @@ echo"<tr><td><font color=white face=arial size=5>4</td>
 }
 if($p5!="" && $p5!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i5."'");
 echo"<tr><td><font color=white face=arial size=5>5</td>
 <td><font color=white face=arial size=5>$c5</td>
 <td><font color=white face=arial size=5>$i5</td>
@@ -98,6 +109,7 @@ echo"<tr><td><font color=white face=arial size=5>5</td>
 }
 if($p6!="" && $p6!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i6."'");
 echo"<tr><td><font color=white face=arial size=5>6</td>
 <td><font color=white face=arial size=5>$c6</td>
 <td><font color=white face=arial size=5>$i6</td>
@@ -106,6 +118,7 @@ echo"<tr><td><font color=white face=arial size=5>6</td>
 }
 if($p7!="" && $p7!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i7."'");
 echo"<tr><td><font color=white face=arial size=5>7</td>
 <td><font color=white face=arial size=5>$c7</td>
 <td><font color=white face=arial size=5>$i7</td>
@@ -114,6 +127,7 @@ echo"<tr><td><font color=white face=arial size=5>7</td>
 }
 if($p8!="" && $p8!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i8."'");
 echo"<tr><td><font color=white face=arial size=5>8</td>
 <td><font color=white face=arial size=5>$c8</td>
 <td><font color=white face=arial size=5>$i8</td>
@@ -122,6 +136,7 @@ echo"<tr><td><font color=white face=arial size=5>8</td>
 }
 if($p9!="" && $p9!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i9."'");
 echo"<tr><td><font color=white face=arial size=5>9</td>
 <td><font color=white face=arial size=5>$c9</td>
 <td><font color=white face=arial size=5>$i9</td>
@@ -130,6 +145,7 @@ echo"<tr><td><font color=white face=arial size=5>9</td>
 }
 if($p10!="" && $p10!="Rs.")
 {
+mysql_query("UPDATE stock SET stock = (stock-1) WHERE item='".$i10."'");
 echo"<tr><td><font color=white face=arial size=5>10</td>
 <td><font color=white face=arial size=5>$c10</td>
 <td><font color=white face=arial size=5>$i10</td>
