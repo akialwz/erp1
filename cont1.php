@@ -8,7 +8,7 @@
 <table border=0 width=94% cellpadding=0 cellspacing=0>
 <tr><td><img src="logo.jpg" height="100" width="100"></td>
 <td><font color="white" face="chiller" size="6">
-<h1>InfoSystems<sub>.com</sub></h1></td>
+<h1>InfoSyss<sub>.com</sub></h1></td>
 <td><div align="right"><font color="black" face="calibri" size="4">
 <b>User Name</b> 
 <input type="text" size="14" name="username">
